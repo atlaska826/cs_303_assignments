@@ -1,6 +1,8 @@
 # CS 303 Assignments
-A repository of the source code for my Data Structures class assignments.
+A repository of my Data Structures class assignments.
 
-### Table of contents:
-* **Assignment 1 - TBD**
-  * [C++ Code File]()
+### Table of Contents:
+* **[Assignment 1](Assignment%201)**
+  * [Question 1](Assignment%201/Question%201)
+  * [Question 2](Assignment%201/Question%202)
+  * [Report](Assignment%201/report_1.md)

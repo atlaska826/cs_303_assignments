@@ -5,12 +5,11 @@ using namespace std;
 
 int main() {
     ifstream inFile;
-    inFile.open(".../A1input.txt");
+    inFile.open("./A1input.txt");
     if (!inFile.is_open()) {
         cout << "Could not open input file!" << endl;
         return 0;
     }
-
     return 0;
 }
 

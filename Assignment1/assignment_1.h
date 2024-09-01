@@ -4,7 +4,7 @@
 #include <fstream>
 #include <iomanip>
 
-// Clear input
+// Clears the input
 void clearInput();
 
 // Prints the menu choices

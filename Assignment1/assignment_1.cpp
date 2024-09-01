@@ -12,6 +12,8 @@ int main() {
         return 0;
     }
 
+    // TODO: Initialize array with file
+
     inFile.close();
 
     int nums[] ={5, 4, 3, 2, 1, 0, 1, 2, 3, 4, 5, 6};
@@ -34,24 +36,43 @@ int main() {
             cout << "\nPlease enter your menu choice: ";
         }
 
-        if (userChoice == 5) {
+        if (userChoice == 5) { // End program
             return 0;
-        } else if (userChoice == 1) {
-            // TODO: User input and return handling
-            size_t foundIndex = findNum(nums, 12, 6);
-        } else if (userChoice == 2) {
-            // TODO: User input
+        } else if (userChoice == 1) { // Find num
+            int searchNum;
+
+            while (true) {
+                cout << "\nPlease enter the number you wish to find: ";
+
+                if (!(cin >> searchNum)) {
+                    cout << "ERROR: You must enter a number.\n";
+                    clearInput();
+                } else {
+                    clearInput();
+                    break;
+                }
+            }
+
+            size_t foundIndex = findNum(nums, 12, searchNum);
+            if (foundIndex == -1) {
+                cout << "Could not find the number " << searchNum << " in the array.\n\n";
+            } else {
+                cout << "Located the number " << searchNum << " at index " << foundIndex << ".\n\n";
+            }
+        } else if (userChoice == 2) { // Change value
+            // TODO: User input for index and integer
             changeArrVal(nums, 12, 0, 6);
-        } else if (userChoice == 3) {
-            // TODO: User input
+        } else if (userChoice == 3) { // Add value
+            // TODO: User input for integer
             addVal(nums, 12, 6);
-        } else {
-            // TODO: User input
+        } else { // Remove value
+            // TODO: User input for index
             removeVal(nums, 12, 6);
         }
     }
 }
 
+// Clears the input
 void clearInput() {
     cin.clear();
     cin.ignore(numeric_limits<streamsize>::max(), '\n');

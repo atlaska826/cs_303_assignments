@@ -33,7 +33,7 @@ int main() {
         }
 
         if (numItems == capacity) { // Update the size of the array if necessary
-            resizeArr(nums, capacity);
+            resizeArr(nums, numItems, capacity);
         }
         nums[numItems++] = value;
     }
@@ -184,11 +184,11 @@ void printArr(const int arr[], size_t size, char arrType) {
 }
 
 // Resizes the array and clears up memory from the old one
-void resizeArr(int*& arr, size_t & capacity) {
+void resizeArr(int*& arr, size_t& size, size_t& capacity) {
     capacity *= 2;
     int* newArr = new int[capacity];
-    // Copies the old array to the new array ( the /2 is because you doubled the capacity)
-    for (size_t i = 0; i < capacity / 2; i++) {
+    // Copies the old array to the new array
+    for (size_t i = 0; i < size; i++) {
         newArr[i] = arr[i];
     }
     delete[] arr;
@@ -215,7 +215,7 @@ void changeArrVal(int arr[], size_t index, int newVal) {
 // Add value to array
 void addVal(int*& arr, size_t& size, size_t& capacity, int newVal) {
     if (size == capacity) {
-        resizeArr(arr, capacity);
+        resizeArr(arr, size, capacity);
     }
     arr[size++] = newVal;
     cout << "Added the number " << newVal << " to the array.\n\n";

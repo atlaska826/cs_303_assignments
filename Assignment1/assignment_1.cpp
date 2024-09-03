@@ -38,9 +38,6 @@ int main() {
         nums[numItems++] = value;
     }
 
-    printArr(nums, numItems, 'S');
-    cout << endl;
-
     // Performs menu functions based on user input until the user inputs the stop value
     int userChoice;
     while (true) {
@@ -50,7 +47,7 @@ int main() {
             cout << "Please enter your menu choice: ";
             if (!(cin >> userChoice)) {
                 cout << "ERROR: You must enter a number.\n\n";
-            } else if (userChoice > 6 || userChoice < 1) {
+            } else if (userChoice > 5 || userChoice < 1) {
                 cout << "ERROR: That is not a valid menu option.\n\n";
             } else {
                 clearInput();
@@ -61,9 +58,7 @@ int main() {
 
 
         // Perform action based on selected menu operation
-        if (userChoice == 6) { // End program
-            cout << endl;
-            printArr(nums, numItems, 'F');
+        if (userChoice == 5) { // End program
             delete[] nums;
             return 0;
         } else if (userChoice == 1) { // Find number
@@ -76,21 +71,17 @@ int main() {
             }
         } else if (userChoice == 2) { // Change value
             changeArrVal(nums,
-                         getIndex("Please enter the index of the value you wish to change: "),
+                         getIndex("Please enter the index of the value you wish to change: ", numItems),
                          getInt("Please enter the new number: ")
             );
         } else if (userChoice == 3) { // Add value
             addVal(nums, numItems, capacity,
                    getInt("Please enter the number you wish to add: ")
             );
-        } else if (userChoice == 4) { // Remove value
+        } else { // Remove value
             removeVal(nums, numItems,
-                      getIndex("Please enter the index of the value you wish to remove: ")
+                      getIndex("Please enter the index of the value you wish to remove: ", numItems)
             );
-        } else { // Print array
-            cout << endl;
-            printArr(nums, numItems, 'C');
-            cout << endl;
         }
     }
 }
@@ -121,7 +112,7 @@ void printMenu() {
 }
 
 // Get integer from input
-int getInt(const string& prompt) { // FIXME: Finish function
+int getInt(const string& prompt) { // TODO: Finish function
     int input;
     while (true) {
         try {
@@ -141,7 +132,7 @@ int getInt(const string& prompt) { // FIXME: Finish function
 }
 
 // Get index from input
-size_t getIndex(const string& prompt) { // FIXME: Finish function
+size_t getIndex(const string& prompt, size_t& size) { // TODO: Finish function
     size_t input;
     while(true) {
         try {
@@ -151,12 +142,12 @@ size_t getIndex(const string& prompt) { // FIXME: Finish function
             clearInput();
             return input;
         }
-        catch (...) {
+        catch (ios_base::failure& iof) {
             cout << "ERROR\n";
 
             clearInput();
             return 6;
-        }
+        } // FIXME: Catch index out of bounds error
     }
 }
 
@@ -167,16 +158,7 @@ size_t getIndex(const string& prompt) { // FIXME: Finish function
  */
 
 // Prints out the array with labels for the starting, ending, and current array
-void printArr(const int arr[], size_t size, char arrType) {
-    cout << "------------------\n";
-    if (arrType == 'F') { // Final
-        cout << setw(3) << "" << "ENDING ARRAY\n";
-    } else if (arrType == 'S') { // Start
-        cout << setw(2) << "" << "STARTING ARRAY\n";
-    } else { // Current
-        cout << setw(4) << "" << "YOUR ARRAY\n";
-    }
-    cout << "------------------\n";
+void printArr(const int arr[], size_t size) {
     cout << left << setw(11) << "Index" << " " << "Number" << endl;
     for (int i = 0; i < size; i++) {
         cout << left << setw(11) << i << " " << arr[i] << endl;

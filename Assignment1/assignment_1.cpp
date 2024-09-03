@@ -187,6 +187,7 @@ void printArr(const int arr[], size_t size, char arrType) {
 void resizeArr(int*& arr, size_t & capacity) {
     capacity *= 2;
     int* newArr = new int[capacity];
+    // Copies the old array to the new array ( the /2 is because you doubled the capacity)
     for (size_t i = 0; i < capacity / 2; i++) {
         newArr[i] = arr[i];
     }

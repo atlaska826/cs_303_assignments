@@ -2,13 +2,32 @@
 #define CS_303_ASSIGNMENTS_ASSIGNMENT_1_H
 
 #include <fstream>
-#include <iomanip>
+
+using namespace std;
+
+/*
+ * ====================
+ * USER INPUT FUNCTIONS
+ * ====================
+ */
 
 // Clears the input
 void clearInput();
 
 // Prints the menu choices
 void printMenu();
+
+// Get integer from input
+int getInt(const string& prompt);
+
+// Get index from input
+size_t getIndex(const string& prompt);
+
+/*
+ * =========================
+ * ARRAY OPERATION FUNCTIONS
+ * =========================
+ */
 
 // Prints out the array
 void printArr(const int arr[], size_t size);
@@ -20,7 +39,7 @@ void resizeArr(int*& arr, size_t& capacity);
 size_t findNum(const int arr[], size_t size, int num);
 
 // Change array value
-void changeArrVal(int arr[], size_t size, size_t index, int changeVal);
+void changeArrVal(int arr[], size_t index, int changeVal);
 
 // Add value to array
 void addVal(int*& arr, size_t& size, size_t& capacity, int newVal);

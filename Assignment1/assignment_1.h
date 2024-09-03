@@ -29,8 +29,8 @@ size_t getIndex(const string& prompt);
  * =========================
  */
 
-// Prints out the array
-void printArr(const int arr[], size_t size);
+// Prints out the array with labels for the starting, ending, and current array
+void printArr(const int arr[], size_t size, char arrType);
 
 // Resizes the array and clears up memory from the old one
 void resizeArr(int*& arr, size_t& capacity);

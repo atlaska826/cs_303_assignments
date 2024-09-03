@@ -3,8 +3,11 @@
 #include <iostream>
 #include <iomanip>
 #include <limits>
+#include <stdexcept>
 
 int main() {
+    cin.exceptions(std::ios::failbit | std::ios::badbit);
+
     // Open array file
     ifstream inFile;
     inFile.open("./A1input.txt");
@@ -37,6 +40,7 @@ int main() {
         }
         nums[numItems++] = value;
     }
+    printArr(nums, numItems);
 
     // Performs menu functions based on user input until the user inputs the stop value
     int userChoice;
@@ -59,6 +63,7 @@ int main() {
 
         // Perform action based on selected menu operation
         if (userChoice == 5) { // End program
+            printArr(nums, numItems);
             delete[] nums;
             return 0;
         } else if (userChoice == 1) { // Find number
@@ -106,48 +111,58 @@ void printMenu() {
     cout << "2. Modify value of a specific number\n";
     cout << "3. Add number to end of array\n";
     cout << "4. Remove number from array\n";
-    cout << "5. Print the array\n";
-    cout << "6. End program\n";
+    cout << "5. End program\n";
     cout << "------------------------------------\n";
 }
 
 // Get integer from input
-int getInt(const string& prompt) { // TODO: Finish function
+int getInt(const string& prompt) {
     int input;
     while (true) {
         try {
             cout << "\n" << prompt;
             cin >> input;
-
             clearInput();
             return input;
         }
         catch (ios_base::failure& iof) {
             cout << "ERROR: You must enter a number.\n";
-
             clearInput();
-            return 6;
+        }
+        catch (...) {
+            cout << "ERROR: Unknown exception caught.\n";
+            exit(1);
         }
     }
 }
 
 // Get index from input
-size_t getIndex(const string& prompt, size_t& size) { // TODO: Finish function
+size_t getIndex(const string& prompt, size_t& size) {
     size_t input;
-    while(true) {
+    while (true) {
         try {
             cout << "\n" << prompt;
             cin >> input;
+
+            if (input > size - 1) {
+                throw std::out_of_range("ERROR: That index is out of the range of the array.\n");
+            }
 
             clearInput();
             return input;
         }
         catch (ios_base::failure& iof) {
-            cout << "ERROR\n";
-
+            cout << "ERROR: You must enter a non-negative number.\n";
             clearInput();
-            return 6;
-        } // FIXME: Catch index out of bounds error
+        }
+        catch (out_of_range& oor) {
+            cout << oor.what();
+            clearInput();
+        }
+        catch (...) {
+            cout << "ERROR: Unknown exception caught.\n";
+            exit(1);
+        }
     }
 }
 

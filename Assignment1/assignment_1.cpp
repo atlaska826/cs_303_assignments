@@ -63,6 +63,7 @@ int main() {
 
         // Perform action based on selected menu operation
         if (userChoice == 5) { // End program
+            cout << endl;
             printArr(nums, numItems);
             delete[] nums;
             return 0;

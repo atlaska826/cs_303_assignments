@@ -23,7 +23,6 @@ Start typing here
 <details>
 <summary><h3><i>Question 2 Screenshots</i></h3></summary>
 
-### Question 2 Screenshots
 Start typing here
 
 </details>

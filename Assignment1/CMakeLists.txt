@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.29)
-
-set(CMAKE_CXX_STANDARD 17)
+project(Assignment1)
 
 set(A1 assignment_1.cpp assignment_1.h)
 

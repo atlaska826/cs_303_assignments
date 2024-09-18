@@ -20,36 +20,46 @@ not run properly.
 <details>
 <summary><h3><i>Question 1 Screenshots</i></h3></summary>
 
+### Singly Linked List Class
+**Class Structure**
+![Code for the singly linked list class](/screenshots/Assignment2/Question1/class_Structure.png)
+
+**Class Constructor**
+![Code for the singly linked list class constructor](/screenshots/Assignment2/Question1/class_Constructor.png)
+
+**Class Destructor**
+![Code for the singly linked list class destructor](/screenshots/Assignment2/Question1/class_Destructor.png)
+
 ### Singly Linked List Functions
 **push_front() function Code**
-![Code for push_front function](/screenshots/Assignment2/Question1)
+![Code for push_front function](/screenshots/Assignment2/Question1/push_front_Code.png)
 
 **push_back() function Code**
-![Code for push_back function](/screenshots/Assignment2/Question1)
+![Code for push_back function](/screenshots/Assignment2/Question1/push_back_Code.png)
 
 **pop_front() function Code**
-![Code for pop_front function](/screenshots/Assignment2/Question1)
+![Code for pop_front function](/screenshots/Assignment2/Question1/pop_front_Code.png)
 
 **pop_back() function Code**
-![Code for pop_back function](/screenshots/Assignment2/Question1)
+![Code for pop_back function](/screenshots/Assignment2/Question1/pop_back_Code.png)
 
 **front() function Code**
-![Code for front function](/screenshots/Assignment2/Question1)
+![Code for front function](/screenshots/Assignment2/Question1/front_Code.png)
 
 **back() function Code**
-![Code for back function](/screenshots/Assignment2/Question1)
+![Code for back function](/screenshots/Assignment2/Question1/back_Code.png)
 
 **empty() function Code**
-![Code for empty function](/screenshots/Assignment2/Question1)
+![Code for empty function](/screenshots/Assignment2/Question1/empty_Code.png)
 
 **insert() function Code**
-![Code for insert function](/screenshots/Assignment2/Question1)
+![Code for insert function](/screenshots/Assignment2/Question1/insert_Code.png)
 
 **remove() function Code**
-![Code for remove function](/screenshots/Assignment2/Question1)
+![Code for remove function](/screenshots/Assignment2/Question1/remove_Code.png)
 
 **find() function Code**
-![Code for find function](/screenshots/Assignment2/Question1)
+![Code for find function](/screenshots/Assignment2/Question1/find_Code.png)
 
 ### Singly Linked List Functions Test Output
 ![Output for test functions #1](/screenshots/Assignment2/Question1/test_Output_1.png)

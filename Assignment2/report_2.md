@@ -10,10 +10,18 @@
   * [Header File - TBA](File)
 
 ## Running the Program
-To run the program, make sure you have the a2_question_1.cpp code file, 
-single_linked_list.tpp code file, and the single_linked_list.h header file, all in the same
-working directory. If you don't place them all in the same folder, the code will
-not run properly.
+To run the program for each question, make sure you have the files for the 
+question you want to run in the same folder.
+
+The required files for each question are as follows:
+* **Question 1**
+  * a2_question_1.cpp code file
+  * single_linked_list.tpp implementation file
+  * single_linked_list.h header file
+* **Questions 2**
+  * a2_question_2.cpp code file
+
+If you don't place them all in the same folder, the code will not run properly.
 
 ## Screenshots
 

@@ -7,7 +7,8 @@
   * [SingleLinkedList .h File](Question1/single_linked_list.h)
 * Question 2
   * [C++ File](Question2/a2_question_2.cpp)
-  * [Header File - TBA](File)
+  * [Stack .cpp File](Question2/stack.cpp)
+  * [Stack .h File](Question2/stack.h)
 
 ## Running the Program
 To run the program for each question, make sure you have the files for the 
@@ -20,6 +21,8 @@ The required files for each question are as follows:
   * single_linked_list.h header file
 * **Questions 2**
   * a2_question_2.cpp code file
+  * stack.cpp code file
+  * stack.h header file
 
 If you don't place them all in the same folder, the code will not run properly.
 
@@ -81,8 +84,3 @@ If you don't place them all in the same folder, the code will not run properly.
 Start typing here
 
 </details>
-
-## REMOVE - Formatting Template 
-### Section Heading
-**Subheading**
-![Alt Text](File Path)

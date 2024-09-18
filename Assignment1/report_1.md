@@ -16,42 +16,42 @@ not run properly.
 ![Code showing how each menu function is carried out](/screenshots/Assignment1/MenuOperations_Code.png)
 
 ### User Input Functions
-**getInt() function Code**
+**getInt() function Code**<br>
 ![Code for getInt function](/screenshots/Assignment1/getInt_Code.png)
 
-**getInt() function Output**
+**getInt() function Output**<br>
 ![Output for getInt function](/screenshots/Assignment1/badInt_Output.png)
 
-**getIndex() function Code**
+**getIndex() function Code**<br>
 ![Code for getIndex function](/screenshots/Assignment1/getIndex_Code.png)
 
-**getIndex() function Output**
+**getIndex() function Output**<br>
 ![Output for getIndex function](/screenshots/Assignment1/badIndex_Output.png)
 
 ### Array Functions
-**resizeArr() function Code**
+**resizeArr() function Code**<br>
 ![Code for resizeArr function](/screenshots/Assignment1/resizeArr_Code.png)
 
-**findNum() function Code**
+**findNum() function Code**<br>
 ![Code for findNum function](/screenshots/Assignment1/findNum_Code.png)
 
-**findNum() function Output**
+**findNum() function Output**<br>
 ![Output for findNum function](/screenshots/Assignment1/Menu_findNum_Output.png)
 
-**changeArrVal() function Code**
+**changeArrVal() function Code**<br>
 ![Code for changeArrVal function](/screenshots/Assignment1/changeArrVal_Code.png)
 
-**changeArrVal() function Output**
+**changeArrVal() function Output**<br>
 ![Output for changeArrVal function](/screenshots/Assignment1/changeArrVal_Output.png)
 
-**addVal() function Code**
+**addVal() function Code**<br>
 ![Code for addVal function](/screenshots/Assignment1/addVal_Code.png)
 
-**addVal() function Output**
+**addVal() function Output**<br>
 ![Output for addVal function](/screenshots/Assignment1/addVal_Output.png)
 
-**removeVal() function Code**
+**removeVal() function Code**<br>
 ![Code for removeVal function](/screenshots/Assignment1/removeVal_Code.png)
 
-**removeVal() function Output**
+**removeVal() function Output**<br>
 ![Output for removeVal function](/screenshots/Assignment1/removeVal_Output.png)

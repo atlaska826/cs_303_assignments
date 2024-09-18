@@ -32,44 +32,44 @@ If you don't place them all in the same folder, the code will not run properly.
 <summary><h3><i>Question 1 Screenshots</i></h3></summary>
 
 ### Singly Linked List Class
-**Class Structure**
+**Class Structure**<br>
 ![Code for the singly linked list class](/screenshots/Assignment2/Question1/class_Structure.png)
 
-**Class Constructor**
+**Class Constructor**<br>
 ![Code for the singly linked list class constructor](/screenshots/Assignment2/Question1/class_Constructor.png)
 
-**Class Destructor**
+**Class Destructor**<br>
 ![Code for the singly linked list class destructor](/screenshots/Assignment2/Question1/class_Destructor.png)
 
 ### Singly Linked List Functions
-**push_front() function Code**
+**push_front() function Code**<br>
 ![Code for push_front function](/screenshots/Assignment2/Question1/push_front_Code.png)
 
-**push_back() function Code**
+**push_back() function Code**<br>
 ![Code for push_back function](/screenshots/Assignment2/Question1/push_back_Code.png)
 
-**pop_front() function Code**
+**pop_front() function Code**<br>
 ![Code for pop_front function](/screenshots/Assignment2/Question1/pop_front_Code.png)
 
-**pop_back() function Code**
+**pop_back() function Code**<br>
 ![Code for pop_back function](/screenshots/Assignment2/Question1/pop_back_Code.png)
 
-**front() function Code**
+**front() function Code**<br>
 ![Code for front function](/screenshots/Assignment2/Question1/front_Code.png)
 
-**back() function Code**
+**back() function Code**<br>
 ![Code for back function](/screenshots/Assignment2/Question1/back_Code.png)
 
-**empty() function Code**
+**empty() function Code**<br>
 ![Code for empty function](/screenshots/Assignment2/Question1/empty_Code.png)
 
-**insert() function Code**
+**insert() function Code**<br>
 ![Code for insert function](/screenshots/Assignment2/Question1/insert_Code.png)
 
-**remove() function Code**
+**remove() function Code**<br>
 ![Code for remove function](/screenshots/Assignment2/Question1/remove_Code.png)
 
-**find() function Code**
+**find() function Code**<br>
 ![Code for find function](/screenshots/Assignment2/Question1/find_Code.png)
 
 ### Singly Linked List Functions Test Output
@@ -82,26 +82,26 @@ If you don't place them all in the same folder, the code will not run properly.
 <summary><h3><i>Question 2 Screenshots</i></h3></summary>
 
 ### Stack Class
-**Class Structure**
+**Class Structure**<br>
 ![Code for the stack class](/screenshots/Assignment2/Question2/class_Structure.png)
 
-**Class Constructor**<br>
+**Class Constructor**<br><br>
 ![Code for the stack class constructor](/screenshots/Assignment2/Question2/class_Constructor.png)
 
 ### Stack Functions
-**isEmpty() function Code**
+**isEmpty() function Code**<br>
 ![Code for isEmpty function](/screenshots/Assignment2/Question2/isEmpty_Code.png)
 
-**push() function Code**
+**push() function Code**<br>
 ![Code for push function](/screenshots/Assignment2/Question2/push_Code.png)
 
-**pop() function Code**
+**pop() function Code**<br>
 ![Code for pop function](/screenshots/Assignment2/Question2/pop_Code.png)
 
-**top() function Code**
+**top() function Code**<br>
 ![Code for top function](/screenshots/Assignment2/Question2/top_Code.png)
 
-**average() function Code**
+**average() function Code**<br>
 ![Code for average function](/screenshots/Assignment2/Question2/average_Code.png)
 
 </details>

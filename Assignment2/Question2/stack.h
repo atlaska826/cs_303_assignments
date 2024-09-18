@@ -14,6 +14,7 @@ public:
     bool isEmpty() const;
     void push(const int& value);
     void pop();
+    void printStack() const;
 
     // Access Functions
     int top() const;

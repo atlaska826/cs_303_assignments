@@ -5,7 +5,7 @@
 using namespace std;
 
 void testLinkedList() {
-    SingleLinkedList<int> list;  // Create a linked list for integers
+    SingleLinkedList<int> list;
 
     // Test push_front
     cout << "Testing push_front and push_back:" << endl;
@@ -21,7 +21,7 @@ void testLinkedList() {
 
     // Test insert
     cout << "Testing insert at index 2:" << endl;
-    list.insert(2, 5);  // List: 2 -> 1 -> 5 -> 3 -> 4
+    list.insert(2, 5);
 
     cout << "LIST EXPECTED: 2 1 5 3 4\n";
     cout << "LIST ACTUAL: ";
@@ -30,7 +30,7 @@ void testLinkedList() {
 
     // Test remove
     cout << "Testing remove at index 1:" << endl;
-    list.remove(1);  // List: 2 -> 5 -> 3 -> 4
+    list.remove(1);
 
     cout << "LIST EXPECTED: 2 5 3 4\n";
     cout << "LIST ACTUAL: ";
@@ -39,7 +39,7 @@ void testLinkedList() {
 
     // Test pop_front
     cout << "Testing pop_front:" << endl;
-    list.pop_front();  // List: 5 -> 3 -> 4
+    list.pop_front();
 
     cout << "LIST EXPECTED: 5 3 4\n";
     cout << "LIST ACTUAL: ";
@@ -48,7 +48,7 @@ void testLinkedList() {
 
     // Test pop_back
     cout << "Testing pop_back:" << endl;
-    list.pop_back();   // List: 5 -> 3
+    list.pop_back();
 
     cout << "LIST EXPECTED: 5 3 \n";
     cout << "LIST ACTUAL: ";

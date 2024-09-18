@@ -35,7 +35,6 @@ public:
     size_t find(const TData& item) const;
     void printList() const;
 
-
 private:
     Node<TData>* pHead;
     Node<TData>* pTail;

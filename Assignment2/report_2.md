@@ -81,6 +81,27 @@ If you don't place them all in the same folder, the code will not run properly.
 <details>
 <summary><h3><i>Question 2 Screenshots</i></h3></summary>
 
-Start typing here
+### Stack Class
+**Class Structure**
+![Code for the stack class](/screenshots/Assignment2/Question2/class_Structure.png)
+
+**Class Constructor**<br>
+![Code for the stack class constructor](/screenshots/Assignment2/Question2/class_Constructor.png)
+
+### Stack Functions
+**isEmpty() function Code**
+![Code for isEmpty function](/screenshots/Assignment2/Question2/isEmpty_Code.png)
+
+**push() function Code**
+![Code for push function](/screenshots/Assignment2/Question2/push_Code.png)
+
+**pop() function Code**
+![Code for pop function](/screenshots/Assignment2/Question2/pop_Code.png)
+
+**top() function Code**
+![Code for top function](/screenshots/Assignment2/Question2/top_Code.png)
+
+**average() function Code**
+![Code for average function](/screenshots/Assignment2/Question2/average_Code.png)
 
 </details>

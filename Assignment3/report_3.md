@@ -7,8 +7,7 @@
   * [Name .ext File]()
 * Question 2
   * [C++ File](Question2/a3_question_2.cpp)
-  * [Name .ext File]()
-  * [Name .ext File]()
+  * [Header File](Question2/a3_question_2.h)
 * Question 3
   * [C++ File](Question3/a3_question_3.cpp)
   * [Name .ext File]()
@@ -25,8 +24,7 @@ The required files for each question are as follows:
   * name header file
 * **Question 2**
   * a3_question_2.cpp code file
-  * name code file
-  * name header file
+  * a3_question_2.h header file
 * **Question 3**
   * a3_question_3.cpp code file
   * name code file
@@ -51,12 +49,19 @@ If you don't place them all in the same folder, the code will not run properly.
 <details>
 <summary><h3><i>Question 2 Screenshots</i></h3></summary>
 
-### Name Functions
-**name() function Code**<br>
-![Code for name function](/screenshots/Assignment3/Question2)
+### Main Functionality
+**linear_search_last() function Code**<br>
+![Code for name function](/screenshots/Assignment3/Question2/linear_search_last_Code.png)
 
-### Name Functions Test Output
-![Output for test functions](/screenshots/Assignment3/Question2)
+**Case #1 main() function Code**<br>
+![Code for name function](/screenshots/Assignment3/Question2/main_Code_1.png)
+
+**Case #2 main() function Code**<br>
+![Code for name function](/screenshots/Assignment3/Question2/main_Code_2.png)
+
+### Test Output
+![Output for test case #1](/screenshots/Assignment3/Question2/test_Output_1.png)
+![Output for test case #2](/screenshots/Assignment3/Question2/test_Output_2.png)
 
 </details>
 

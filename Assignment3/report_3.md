@@ -60,10 +60,10 @@ If you don't place them all in the same folder, the code will not run properly.
 ![Code for name function](/screenshots/Assignment3/Question2/main_Code_2.png)
 
 ### Test Output
-**Case #1 test Output**<br>
+**Case #1 Output**<br>
 ![Output for test case #1](/screenshots/Assignment3/Question2/test_Output_1.png)
 
-**Case #2 test Output**<br>
+**Case #2 Output**<br>
 ![Output for test case #2](/screenshots/Assignment3/Question2/test_Output_2.png)
 
 </details>

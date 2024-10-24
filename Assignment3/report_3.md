@@ -10,8 +10,7 @@
   * [Header File](Question2/a3_question_2.h)
 * Question 3
   * [C++ File](Question3/a3_question_3.cpp)
-  * [Name .ext File]()
-  * [Name .ext File]()
+  * [Header File](Question3/a3_question_3.h)
 
 ## Running the Program
 To run the program for each question, make sure you have the files for the 
@@ -27,8 +26,7 @@ The required files for each question are as follows:
   * a3_question_2.h header file
 * **Question 3**
   * a3_question_3.cpp code file
-  * name code file
-  * name header file
+  * a3_question_3.h header file
 
 If you don't place them all in the same folder, the code will not run properly.
 
@@ -71,11 +69,14 @@ If you don't place them all in the same folder, the code will not run properly.
 <details>
 <summary><h3><i>Question 3 Screenshots</i></h3></summary>
 
-### Name Functions
-**name() function Code**<br>
-![Code for name function](/screenshots/Assignment3/Question3)
+### Main Functionality
+**insertion_sort() function Code**<br>
+![Code for name function](/screenshots/Assignment3/Question3/insertion_sort_Code.png)
 
-### Name Functions Test Output
-![Output for test functions](/screenshots/Assignment3/Question3)
+**main() function Code**<br>
+![Code for name function](/screenshots/Assignment3/Question3/test_Code.png)
+
+### Test Output
+![Output for sort function](/screenshots/Assignment3/Question3/insertion_sort_Output.png)
 
 </details>
